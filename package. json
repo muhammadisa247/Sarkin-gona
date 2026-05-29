@@ -1,9 +1,16 @@
 {
   "name": "sarkin-gona-bot",
   "version": "1.0.0",
+  "description": "Bot na manoma",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {}
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "qrcode-terminal": "^0.12.0"
+  }
 }
